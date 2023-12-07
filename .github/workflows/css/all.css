@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+ul,li,h1,h2,h3,p{ padding:0; margin:0; list-style:none}
+a{ text-decoration:none; color:#000}
+img{ display:block}
+body{ width:100%; min-width: 1300px; background:#ddd; margin:0 auto; line-height:21px}
+.clear{ clear:both}
+.menu li{ list-style:none}
+.logo{ margin:0px; float:left}
+.logo img{ width:100px}
+.banner{ position:relative; }
+.head{ background:#699; height:100px}
+
+.menu{ text-align:center; float:right;}
+.menu li a{ padding:10px 20px; font-size:18px;color:#fff}
+.menu li {  float:left; padding:40px 0;}
+.jsc{ font-size:18px; line-height:30px; margin-left:37%;}
+.right{ float:right; width:950px; margin-right:20px; padding:0px}
+.left{ float:left; width:260px; margin-left:20px; padding:0px}
+.mid{ float:left; width:460px; margin-left:20px; padding:0px}
+.content{ clear:both;background:#fff ; padding-bottom:30px; width:100%}
+.content,.ma{ width: 1300px; margin: 0 auto}
+.content:after{ clear: both; display: block; content: ''}
+.end{ clear:both;background:#699; color:#fff; padding:20px 0; text-align:center;}
+.produce img{  margin:0 20px 20px 0}
+.produce { line-height:30px}
+.pad{ padding:20px; display:block}
+.pics p{ text-align:center}
+.of{ width:400px}
+.imglist{ width:100%; margin:0 auto}
+.imglist li{ float:left; width:33.3%; text-align:center}
+.imglist li:hover img{ opacity:0.7}
+.imglist li img{ border-radius:10px; margin:0 auto; margin-bottom:10px; width:90%}
+.imglist li p{ font-size:20px; padding-bottom:20px}
+.scrollleft{ margin:0 0px}
+.scrollleft li{ float:left; width:250px; margin-bottom:10px;}
+.news li{ padding:5px;}
+.banner2{ position:relative}
+.banner2 div{ position:absolute; left:50%; margin-left:-350px; width:600px;top:50%; margin-top:-200px; text-align:center; padding:50px; background:rgba(255,255,255,0.5)}
+.banner2 div p{ text-align:justify}
+.banner2 div h3{ font-size:30px; margin:20px 0}
+
+.banner3{ position:relative}
+.banner3 div{ position:absolute; left:0; height:100%; color:#fff; width:300px;top:0%; padding:0 50px; background:rgba(0,0,0,0.5)}
+.banner3 div p{ text-align:justify; line-height:24px}
+.banner3 div h3{ font-size:30px; margin:20px 0; padding-top:40px;}
+
+#banner {
+	width: 100%;
+	height: 750px;
+	position: relative;
+}
+#banner ul#b_pic li {
+	width: 100%;
+	height: 750px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	display: none;
+}
+#banner ul#b_pic li img {
+	width: 100%;
+	height:750px;
+	display: block;
+}
+#banner ul#b_an {
+	position: absolute;
+	width: 100%;
+	bottom:22px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#banner ul#b_an li {
+	width: 13px;
+	height: 13px; border-radius:13px;
+	background: #86939b;
+	margin: 0 3px;
+}
+
+.title{ text-align:center; color:#F00; padding:10px}
+.fl{ float:left}
+.js  div{ width:56%; font-size:18px; line-height:30px;  margin-bottom:20px; float:left}
+.gd{ background:#F96; color:#fff; padding:10px 50px; display:inline-block; margin-top:50px; font-size:18px}
+.js div img{ float:left; margin-right:20px} 
+
+.js h1{ font-weight:normal; padding-bottom:30px}
+.lsc {}
+.lsc li{ float:left; width:29.8%; border:#ccc solid 1px; border-radius:10px; margin:1.6%; text-align:center;  font-size:24px; padding:40px 0; padding-top:4px; background:#fff}
+.lsc li p{ font-family:"Courier New", Courier, monospace; margin-top:20px;}
+.lsc li img{ margin-bottom:20px}
+.msg>div{ padding:10px}
+.mes li { height:400px}
+.mes li img{ width:50%; height:400px; float:left}
+.mes li.rs img{ float:right}
+.mes li div { text-align:center; padding-top:170px}
+.mes li h3{ font-size:36px;}
+.bar{ margin:0px 0; margin-bottom:20px;clear:both; line-height: 50px;  color:#F96; background:#fff ; border-bottom:#ccc solid 2px; font-size:18px;font-weight:bold; padding:10px 20px}
+.pics li img{ width:240px; height: 180px}
+.tub li {background: #fff; font-size:24px; width:49%; border: #ccc solid 1px;padding: 17px 0; margin-bottom:27px; height:280px; display:inline-block;color: #FFFF00; 
+}
+.tub li:hover{ border:#999933 solid 1px}
+.tub li img{ margin-right:30px; width:300px; margin-left:20px; height:280px; float:left}
+.navs { margin-top:20px;}
+.navs p a{ display:block; background:#ccc; padding:10px; font-size:18px; margin:10px 0 }
+.gqlist li {
+    width: 100%; border-bottom:#ccc dashed 1px;
+    float: left;
+    padding:10px 0;
+}
+.gqlist li  b{ font-weight:normal}
+.btn{ display: inline-block; padding: 5px 50px; width:200px; background: #dc3434; color: #fff; font-size: 18px; border: none}
+.fss input,.fss textarea,.fss  button{ padding: 10px}
